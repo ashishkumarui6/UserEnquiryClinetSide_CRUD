@@ -116,7 +116,7 @@ const Enquiry = () => {
                   <label htmlFor="email">Your Email</label>
                   <input
                     type="text"
-                    placeholder="Enter Your Name"
+                    placeholder="Enter Your Email"
                     className="bg-white p-1"
                     name="email"
                     onChange={OnGETData}
@@ -128,7 +128,7 @@ const Enquiry = () => {
                   <label htmlFor="phone">Your Phone</label>
                   <input
                     type="text"
-                    placeholder="Enter Your Name"
+                    placeholder="Enter Your Phone"
                     className="bg-white p-1"
                     name="phone"
                     onChange={OnGETData}
@@ -141,7 +141,7 @@ const Enquiry = () => {
                   <textarea
                     rows={4}
                     type="text"
-                    placeholder="Enter Your Name"
+                    placeholder="Enter Your Message"
                     className="bg-white p-1"
                     name="message"
                     onChange={OnGETData}
@@ -152,7 +152,7 @@ const Enquiry = () => {
 
                 <div className="py-3">
                   <input
-                    className="bg-blue-500 py-3 px-8 font-bold text-white w-[100%]"
+                    className="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none w-[100%]"
                     type="submit"
                     value={!formData._id ? "Save" : "Update"}
                   />
